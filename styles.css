@@ -1,0 +1,27 @@
+/* Custom CSS for Animations */
+.hero img {
+    animation: fadeIn 2s ease-in-out;
+  }
+  
+  @keyframes fadeIn {
+    from {
+      opacity: 0;
+    }
+    to {
+      opacity: 1;
+    }
+  }
+  
+  blockquote {
+    transition: transform 0.3s ease, background-color 0.3s ease;
+  }
+  
+  blockquote:hover {
+    transform: translateX(10px);
+    background-color: #f1f5f9;
+  }
+.ce{
+    align-items: center;
+    display: flex;
+    justify-content: center;
+}  
